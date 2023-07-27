@@ -1,0 +1,55 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.container{
+    border: 2px solid burlywood;
+}
+body {
+    background-color: salmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+    border: 1px solid whitesmoke;
+}
+.navbar .brand{
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    margin-inline-start: 50px;
+    font-weight: bold;
+}
+
+
+.navbar ul{
+    margin-inline-end:50px ;
+    display: flex;
+    margin:;
+    text-decoration: none 
+}
+
+.navbar ul li{
+    list-style: none ;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
